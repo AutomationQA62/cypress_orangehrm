@@ -5,4 +5,4 @@ workflows:
   build:
     jobs:
       - cypress/run:
-          cypress-command: 'npx cypress run --parallel --record'
+          cypress-command: 'npx cypress run --parallel --record --key f4466038-70c2-4688-9ed9-106bf013cd75'
