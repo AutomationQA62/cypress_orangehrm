@@ -34,7 +34,7 @@ jobs:
           pkg-manager: npm
       - run:
           name: Run tests
-          command: npm run cy:open:headed
+          command: npx cypress run
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
