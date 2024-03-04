@@ -5,5 +5,5 @@ workflows:
   build:
     jobs:
       - cypress/run:
-          cypress-command: 'npx cypress run --parallel'
+          cypress-command: 'npx cypress run'
           parallelism: 2
